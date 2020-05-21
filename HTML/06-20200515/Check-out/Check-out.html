@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="check-out.css">
+</head>
+
+<body class="h-100">
+    <div class="container mt-5
+    ">
+        <div class="row">
+            <div class=col-1></div>
+            <div class="col-10">
+                <div class="square ml-center">
+                    <H1 class="text-center font-size text-white">B</H1>
+                </div>
+                <div>
+                    <h1 class="text-center"> Checkout form</h1>
+                    <p class="text-center">Below is an example form built entirely with Bootstrap’s form controls. Each required form group has a validation state that can be triggered by attempting to submit the form without completing it.</p>
+                </div>
+            </div>
+            <div class="col-1"></div>
+        </div>
+    </div>
+    <div class="container mt-5">
+
+        <div class="row  d-flex">
+            <div class="col-8">
+                <div class="ml-5 ">
+                    <h2>Billing address</h2>
+                </div>
+                <div class="d-flex w-100">
+                    <div class="ml-5 w-50   ">
+                        <label>First Name</label><br>
+                        <input type="text" class=" boder-4 input-height w-100">
+                    </div>
+                    <div class="ml-3 w-50">
+                        <label>Last Name</label><br>
+                        <input type="text" class=" boder-4 input-height w-100">
+                    </div>
+                </div>
+                <div class="mt-3 ml-5 w-90 ">
+                    <label for="">Username</label><br>
+                    <div class="d-flex ">
+                        <div class="square-mini ">
+                            <span class=" input-group-text">@</span></div>
+
+                        <div class="w-100">
+
+                            <input type="text" class="w-100 input-height " placeholder="Username"></div>
+                    </div>
+                </div>
+                <div class="ml-5 mt-3">
+                    <label for="">Email <span class="text-black-50 span-size">(Optional)</span></label><br>
+                    <input class="w-100 boder-4 input-height" type="text" you@example.com>
+                </div>
+                <div class="mt-3 ml-5 ">
+                    <label>Address</label>
+                    <input type="text" placeholder=" 1234 Main St" class="w-100 boder-4 input-height">
+                </div>
+                <div class="mt-3 ml-5 ">
+                    <label>Address 2 <span class="text-black-50 span-size">(Optional)</span></label>
+                    <input type="text" placeholder="Apartment or suite" class="w-100 boder-4 input-height">
+                </div>
+                <div class="mt-3 ml-5 d-flex">
+
+                    <div class=" w-40">
+                        <label>Country</label><br>
+                        <select class="w-100 input-height boder-4">
+                     
+                        <option value="" disabled selected>Choose..</option>
+                        <option> United States</option>
+                    </select>
+                    </div>
+                    <div class="ml-3 w-35">
+                        <label>State</label><br>
+                        <select class="w-100 input-height boder-4"> 
+                        <option value="disabled selected"> State</option>
+                        <option > California</option>
+                    </select>
+                    </div>
+                    <div class=" w-25 ml-3">
+                        <label for="">Zip</label>
+                        <input type="text" class=" input-height boder-4 ">
+                    </div>
+
+                </div>
+                <div class="ml-5">
+
+                    <hr>
+                </div>
+                <div class="mt-3 ml-5">
+                    <input class="custom-checkbox" type="checkbox">Shipping address is the same as my billing address
+
+                </div>
+                <div class="mt-3 ml-5">
+                    <input class="custom-checkbox" type="checkbox">Save this information for next time
+                </div>
+                <div class="ml-5">
+
+                    <hr>
+                </div>
+                <div class="mt-3 ml-5">
+                    <div>
+                        <h4>Payment</h4>
+                    </div>
+                    <div>
+                        <input type="radio" class="radio-button">Credit Card
+                        <br>
+                        <input type="radio" class="radio-button">Debit card
+                        <br> <input type="radio" class="radio-button">PayPal
+                    </div>
+
+
+                </div>
+                <div class="d-flex w-100">
+                    <div class="ml-5 w-50   ">
+                        <label>Name on card</label><br>
+                        <input type="text" class=" boder-4 input-height w-100"><br>
+                        <small class="text-muted">Full name as displayed on card
+                            Credit card number</small>
+                    </div>
+                    <div class="ml-3 w-50">
+                        <label>Credit card number</label><br>
+                        <input type="text" class=" boder-4 input-height w-100">
+                    </div>
+
+                </div>
+                <div class="w-50 mt-3 ml-5 d-flex">
+                    <div>
+                        <label for="">Expiration</label><br>
+                        <input type="text" class="input-height w-80 boder-4 ">
+                    </div>
+                    <div>
+                        <label for=" " class="ml-3">CCV</label ><br>
+                        <input type="text " class="input-height w-80 boder-4 ml-3 ">
+                    </div>
+                </div>
+                <div class="ml-5">
+
+                    <hr>
+                </div>
+                <div class="ml-5 mt-3 button ">
+                    <button class="boder-4 w-100 input-height bg-primary text-white text-center pt-1">Continue to checkout</button>
+                </div>
+                <div class="w-100 d-flex mt-5">
+                    <div class="w-50"></div>
+                    <div class="w-50 mt-5">
+                        <p class="text-center text-black-50">© 2017-2020 Company Name</p>
+                        <p class="text-center"><a href="">Privacy</a>
+                            <a href="">Terms</a>
+                            <a href="">Support</a></p>
+
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-4 ">
+                <h2>Your card</h2>
+
+                <div class="mt-3 w-75 border-2top">
+                    <label for=""><h6 class="pt-3 ml-3 my-0">Product name</h6>
+                        <small class=" ml-3 ">Brief description</small></label>
+                    <span class="text-muted ml-10 small">$12</span>
+
+
+
+                </div>
+                <div class=" w-75 border h_70">
+                    <label for=""><h6 class="pt-3 ml-3 my-0">Second product</h6>
+                        <small class=" ml-3 ">Brief description</small></label>
+                    <span class="text-muted ml-9 small">$8</span>
+
+
+
+                </div>
+                <div class=" w-75 border h_70">
+                    <label for=""><h6 class="pt-3 ml-3 my-0">Third item</h6>
+                        <small class=" ml-3 ">Brief description</small>
+                        </label>
+
+                    <span class="text-muted ml-11 small mb-0">$5</span>
+
+
+                </div>
+                <div class=" w-75 border h_70 bg-1">
+                    <label for=""><h6 class="pt-3 ml-3 text-success my-0">Promo code </h6>
+                        <small class="td-top ml-3 text-success">EXAMPLECODE
+                        </small></label>
+
+                    <span class=" mb-1 text-success small ml-11">-$5</span>
+
+                </div>
+                <div class=" w-75 border border-2bot">
+                    <label for=""><h5 class="pt-3 ml-3">Total (USD)</h5></label>
+
+                    <span class="text-muted ml-10  ">$20</span>
+                </div>
+                <div class="mt-3 w-75 boder-4 h_50 d-flex">
+                    <div> <input type="text" class="form-control w-90  mt-1 ml-3" placeholder="Promo code"></div>
+                    <div><button type="submit" class="btn bg-secondary mt-1 mr-3">Redeem</button></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    </div>
+
+    </div>
+    </div>
+    <div class="container "></div>
+</body>
+
+</html>

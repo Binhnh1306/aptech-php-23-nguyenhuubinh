@@ -1,0 +1,23 @@
+.nen-xam{
+    background-color: grey;
+}
+.nam-giua{
+        text-align: center;
+}
+.mau-trang{
+    color: honeydew;
+}
+
+.div-cha{
+    display:flex
+}
+.div-1{
+    background-color: rgb(161, 156, 156);
+    width: 25%;
+    height: 200px;
+}
+.div-2{
+    width: 75%;
+    height: 200px;
+
+}

@@ -1,0 +1,14 @@
+.div-cha {
+    display: flex
+}
+
+.div-1 {
+    background-color: rgb(161, 156, 156);
+    display: flex;
+    width: 25%;
+}
+
+.div-2 {
+    width: 75%;
+    display: flex;
+}

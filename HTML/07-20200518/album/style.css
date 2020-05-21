@@ -1,0 +1,46 @@
+.square{
+    height: 40px;
+    width:60px;
+    border: ghostwhite 1px solid;
+   
+    margin-top: 5px;
+}
+.line{
+    height: 2px;
+   background-color: ghostwhite;
+    width: 40PX;
+    margin-top: 5px;
+    margin-left: 9px;
+   
+
+}
+.height-row{
+    height:60px;
+}
+.khoang-cach{
+    margin-top: 10px;
+}
+.fontsize{
+    font-size: 40px;
+}
+.blue-button{
+background-color: rgb(88, 96, 211);
+border-radius: 5px;
+font-size:large;
+border: none;
+width: 35%;;
+}
+.gray-button{
+    background-color: rgb(109, 107, 107);
+    border-radius: 5px;
+    font-size: larger;border: none;width: 35%;;
+}
+.hinh{
+    width: fit-content;
+}
+.bg-color{
+    background-color: #F8F9FA;
+}
+.space{
+    padding: 9rem;
+}

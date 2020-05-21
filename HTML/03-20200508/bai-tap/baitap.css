@@ -1,0 +1,107 @@
+.div-cha {}
+
+.div1 {
+    display: flex;
+    background-color: gray;
+}
+
+.div1-1 {
+    width: 70%;
+    background-color: hotpink;
+    margin: 10px;
+    border: 3px solid yellow;
+    ;
+}
+
+.div1-2 {
+    width: 30%;
+    background-color: hotpink;
+    height: 100px;
+    margin: 10px;
+    border: 3px solid yellow;
+}
+
+.div2 {
+    display: flex;
+    background-color: gray;
+}
+
+.div2-1 {
+    display: block;
+    width: 50%;
+}
+
+.div2-1-1 {
+    height: 60px;
+    background-color: khaki;
+    margin: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 3px solid yellow;
+}
+
+.div2-1-2 {
+    height: 120px;
+    background-color: khaki;
+    margin: 10px;
+    border: 3px solid yellow;
+}
+
+.div2-2 {
+    display: flex;
+    width: 50%;
+}
+
+.div2-2-1 {
+    height: px;
+    width: 50%;
+    background-color: blue;
+    margin: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 3px solid yellow;
+}
+
+.div2-2-2 {
+    height: 200px;
+    width: 50%;
+    background-color: blue;
+    margin: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 3px solid yellow;
+}
+
+.div3 {
+    display: flex;
+    background-color: gray;
+}
+
+.div3-1 {
+    background-color: lightgreen;
+    width: 33.33%;
+    height: 50px;
+    margin: 10px;
+    border: 3px solid yellow;
+}
+
+.div3-2 {
+    background-color: lightgreen;
+    width: 33.33%;
+    height: 50px;
+    margin: 10px;
+    border: 3px solid yellow;
+}
+
+.div3-3 {
+    background-color: lightgreen;
+    width: 33.33%;
+    height: 50px;
+    margin: 10px;
+    border: 3px solid yellow;
+}
+
+p {
+    color: red;
+    text-align: center;
+}

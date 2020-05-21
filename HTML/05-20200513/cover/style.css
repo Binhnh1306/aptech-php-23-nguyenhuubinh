@@ -1,0 +1,23 @@
+.center {
+    text-align: center;
+}
+
+body {
+    height: 100vh;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+a :hover {
+    background-color: gray;
+}
+
+a {
+    text-decoration: none;
+}
+
+.ml-10 {
+    margin-left: 6rem;
+}

@@ -1,0 +1,42 @@
+.blog-header-logo {
+    font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+    font-size: 3rem;
+}
+.title{
+    border-radius: 10px;
+}
+.w-60{
+    width: 60%;
+}
+.w-40{
+    width: 40%;
+}
+.w-48{
+    width: 48%;
+}
+.img-border{
+    border-radius: 0 10px 10px 0;
+}
+.text-timenewroman{
+    font-family: "Playfair Display",georgia, "Times New Roman", serif;
+    
+}
+.button2-blue{
+    height: 40px;
+    width: 80px;
+    border-radius: 20px;
+    border: royalblue 1px solid;
+}
+.button2-gray{
+    height: 40px;
+    width: 80px;
+    border-radius: 20px;
+    border: rgb(180, 182, 187) 1px solid;
+}
+.blog-header-logo-2 {
+    font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+    font-size: 2rem;
+}
+ul{
+    list-style: none;
+}

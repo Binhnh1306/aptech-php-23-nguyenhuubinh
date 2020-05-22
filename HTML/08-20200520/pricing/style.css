@@ -1,0 +1,45 @@
+.row-height{
+    height: 60px;
+}
+.button{
+    border-radius: 5px;
+    border:1px rgb(46, 144, 236) solid;
+}
+.free{
+    height:40px;
+    background-color: #F0f0f0;
+    
+    
+}
+.card{
+    border-radius: 5px 5px 0 0;
+    border:solid 1px rgb(122, 117, 117) 
+;
+}
+.up-border{
+    border-top:solid 1px rgb(223, 210, 210);
+    
+}
+ul{
+   
+    list-style: none;
+ 
+    
+}
+.w-90{
+    width: 90%;
+     height: 40px;
+}
+.square {
+    width: 20px !important;
+    height: 20px;
+    background-color: indigo;
+    border-radius: 3px;
+}
+
+.font-size {
+    font-size: 18px;
+}
+.ml-center {
+    margin: 0 auto;
+    width: 15px;}

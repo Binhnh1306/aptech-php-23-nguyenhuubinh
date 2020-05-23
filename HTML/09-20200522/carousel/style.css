@@ -1,0 +1,56 @@
+.input[type=text] {
+    width: 130px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('searchicon.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+  }
+  .image{
+    height: 100vh;
+  }
+  .cricle{
+    border-radius: 50%;
+  }
+  .button{
+    height:40px;
+     width:120px;
+     border-radius: 5px;
+     background-color: rgb(71, 70, 70);
+     border:solid darkgray ;
+
+  }.img__background--image1 {
+    background-image: url('hinh1.jpg');
+  }
+  
+  .img__background--image2 {
+    background-image: url('hinh2.jpg');
+  }
+  
+  .img__background--image3 {
+    background-image: url('hinh3.jpg');
+  }
+  
+  .img__background--repeat {
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+  }
+  .square450{
+    height: 450px;
+    width: 450px;
+  }
+  .line{
+    height: 1px;
+    width: 100%;
+    border-bottom: darkgray 1.3px solid;
+  }
+  

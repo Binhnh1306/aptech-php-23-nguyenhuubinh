@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+</head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<style>
+   
+    th,td{
+        border: 1px   solid black;
+        padding: 6px;
+        
+    }
+    table{
+        border-collapse: collapse;
+    }
+   
+</style>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Password</th>
+                <th>Created at</th>
+                <th>Updated atat</th>
+            </tr>
+        </thead>
+        <tbody id="tableBody">
+
+        </tbody>
+    </table>
+    <div id="demo">Chua Thay Doi</div>
+    <button id="nutAn">Click Nhanh</button>
+    <script>
+        $(document).ready(function () {
+            $('#nutAn').click(function () {
+                $.get('https://namcoi.com/du-an/aptech-php-laravel-crud-user/public/api/users',
+                    function (data, status) {
+                        // $('#demo').html(data.users[0].id);
+                        // $('#demo').html(data.users[0].name);
+
+                        // console.log(data.users)
+
+                    
+                            var tableBodyElement = document.getElementById("tableBody");
+                            for (var i = 0; i < data.users.length; i++) {
+                                var tableRow = document.createElement("tr");
+
+                                var tableData = document.createElement("td");
+                                tableData.innerHTML = data.users[i]["id"];
+                                tableRow.appendChild(tableData);
+
+                                var tableData = document.createElement("td");
+                                
+                                tableData.innerHTML = data.users[i]["name"];
+                                tableRow.appendChild(tableData);
+
+                                var tableData = document.createElement("td");
+                                tableData.innerHTML = data.users[i].email;
+                                tableRow.appendChild(tableData);
+
+                                var tableData = document.createElement("td");
+                                tableData.innerHTML = data.users[i].password;
+                                tableRow.appendChild(tableData);
+                                
+                                var tableData = document.createElement("td");
+                                tableData.innerHTML = data.users[i].created_at;
+                                tableRow.appendChild(tableData);
+
+                                var tableData = document.createElement("td");
+                                tableData.innerHTML = data.users[i].update_at;
+                                tableRow.appendChild(tableData);
+
+                                tableBodyElement.appendChild(tableRow);
+                            }
+                      
+                    });
+            });
+        });
+
+    </script>
+</body>
+
+</html>

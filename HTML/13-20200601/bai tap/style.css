@@ -1,0 +1,29 @@
+.button{
+height: 30px ;
+text-align: center;
+}
+li{
+    list-style: none;
+    text-align: -web;
+}
+.slide {
+height: 70vh;
+width: 100%;
+}
+.bg-image{
+    background-image: url("slide.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+ul{
+    padding-inline-start: 40px;
+}
+.btn-div{
+    margin-top: 50vh;
+}
+@media only screen and (max-width: 768px) {
+    #an1,#an2,#an3,#an4{
+      display: none;
+    }
+  }

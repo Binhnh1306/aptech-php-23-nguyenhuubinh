@@ -20,10 +20,19 @@ ul{
     padding-inline-start: 40px;
 }
 .btn-div{
-    margin-top: 50vh;
+    margin-top: 10px;
 }
 @media only screen and (max-width: 768px) {
     #an1,#an2,#an3,#an4{
       display: none;
     }
   }
+.first-div,.second-div{
+    width: 70%;
+    margin-left: 15%;
+    text-align: center;
+    color: aliceblue;
+}
+.first-div{
+    margin-top: 40vh;
+}

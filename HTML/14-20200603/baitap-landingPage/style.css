@@ -1,0 +1,43 @@
+.anh {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;}
+.slide {
+    height: 80vh;
+    width: 100%;
+    position: relative;
+}
+.bg-image{
+    background-image: url("cover1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.text-div{
+    margin-top: 180px;
+}
+
+.bd-rd{
+    border-radius: 2px;
+    border:none;
+}
+  @media only screen and (max-width: 768px) {
+    #h3,#h4{
+      font-size:smaller;
+    }
+    .slide {
+        height: 90vh;
+        width: 100%;
+        position: relative;
+
+  } }
+
+.icon{
+      font-size: 150px;
+  }
+.color-blue{
+    color: blue;
+    margin-left: 5px;
+    font-size: 30px;
+  margin-left: 10px;
+}

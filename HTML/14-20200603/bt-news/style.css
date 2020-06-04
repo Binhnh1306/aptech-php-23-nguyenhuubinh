@@ -1,0 +1,45 @@
+.anh1,.anh2{
+    width: 100%;
+    height: 300px;
+   
+    background-size: cover;
+    background-position: center;
+
+}
+.anh1{
+    background-image:url("anh1.jpg");
+}
+.anh2{
+    background-image:url("anh2.jpg"); 
+    margin-left: 1px;
+}
+
+.new{
+    height: 60px;
+    border-bottom: 1.5px solid rgb(230, 228, 228) ;
+    width: 100%;
+}
+.bd-rd{
+    border-radius: 5px;
+    border: 1.5px solid rgb(230, 228, 228);
+    border-bottom: none;
+}
+.doc{
+    
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 100%;
+    margin-top: 12px;
+}
+ul{
+    list-style: none;
+}
+.green{
+    color: green;
+    font-size: x-large;
+}
+.red{
+    color: red;
+    font-size: x-large;
+}

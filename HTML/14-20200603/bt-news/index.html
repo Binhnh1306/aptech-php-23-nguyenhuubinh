@@ -10,7 +10,8 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="./new.js"></script>
 </head>
 
 <body>
@@ -28,14 +29,14 @@
                 <div class=" d-md-none">
 
                     <nav class="navbar navbar-dark bg-success p-0">
-                        <button class="navbar-toggler">
+                        <button id="nutAn" class="navbar-toggler">
                             <span class="navbar-toggler-icon"></span>
                         </button>
                     </nav>
                 </div>
             </div>
             <!-- topppppppppppp -->
-            <div class="col-12 d-block d-md-flex justify-content-between mt-3 text-center">
+            <div id="canAn" class="col-12 anHien d-md-flex justify-content-between mt-3 text-center">
                 <i class="fas fa-chevron-left d-none d-md-block"></i>
                 <p class="text-muted" href="">Home</p>
                 <p class="text-muted" href="">HTML</p>
@@ -56,7 +57,9 @@
         <div class="container">
             <div class="row">
                 <div class="col-6 col-md-4 p-0">
-                    <div class="anh1"></div>
+                    <div class="anh1">
+
+                    </div>
                 </div>
                 <div class="d-none d-md-block col-6 col-md-4 p-0">
                     <div class="anh2"></div>
@@ -66,46 +69,46 @@
 
                         <div class="new align-items-center d-flex bg-light">
                             <p class=" doc">Lorem ipsum dolor sit amet
-                                 consectetur adipisicing elit.
+                                consectetur adipisicing elit.
                                 Exercitationem aliquam laborum eius impedit reiciendis
                                 vitae laudantium dignissimos mollitia, quos nostrum
                                 ab harum excepturi vel ipsum voluptas minima.
-                                 Perferendis, rerum animi?</p>
+                                Perferendis, rerum animi?</p>
                             <i class="fab fa-node-js green"></i>
                         </div>
                         <div class="new align-items-center d-flex">
                             <p class=" doc">Lorem ipsum dolor sit amet
                                 consectetur adipisicing elit.
-                               Exercitationem aliquam laborum eius impedit reiciendis
-                               vitae laudantium dignissimos mollitia, quos nostrum
-                               ab harum excepturi vel ipsum voluptas minima.
+                                Exercitationem aliquam laborum eius impedit reiciendis
+                                vitae laudantium dignissimos mollitia, quos nostrum
+                                ab harum excepturi vel ipsum voluptas minima.
                                 Perferendis, rerum animi?</p>
                             <i class="fab fa-html5 red"></i>
                         </div>
                         <div class="new align-items-center d-flex">
                             <p class=" doc">Lorem ipsum dolor sit amet
                                 consectetur adipisicing elit.
-                               Exercitationem aliquam laborum eius impedit reiciendis
-                               vitae laudantium dignissimos mollitia, quos nostrum
-                               ab harum excepturi vel ipsum voluptas minima.
+                                Exercitationem aliquam laborum eius impedit reiciendis
+                                vitae laudantium dignissimos mollitia, quos nostrum
+                                ab harum excepturi vel ipsum voluptas minima.
                                 Perferendis, rerum animi?</p>
                             <i class="fab fa-node-js green"></i>
                         </div>
                         <div class="new align-items-center d-flex">
                             <p class=" doc">Lorem ipsum dolor sit amet
                                 consectetur adipisicing elit.
-                               Exercitationem aliquam laborum eius impedit reiciendis
-                               vitae laudantium dignissimos mollitia, quos nostrum
-                               ab harum excepturi vel ipsum voluptas minima.
+                                Exercitationem aliquam laborum eius impedit reiciendis
+                                vitae laudantium dignissimos mollitia, quos nostrum
+                                ab harum excepturi vel ipsum voluptas minima.
                                 Perferendis, rerum animi?</p>
                             <i class="fab fa-node-js green"></i>
                         </div>
                         <div class="new align-items-center d-flex">
                             <p class=" doc">Lorem ipsum dolor sit amet
                                 consectetur adipisicing elit.
-                               Exercitationem aliquam laborum eius impedit reiciendis
-                               vitae laudantium dignissimos mollitia, quos nostrum
-                               ab harum excepturi vel ipsum voluptas minima.
+                                Exercitationem aliquam laborum eius impedit reiciendis
+                                vitae laudantium dignissimos mollitia, quos nostrum
+                                ab harum excepturi vel ipsum voluptas minima.
                                 Perferendis, rerum animi?</p>
                             <i class="fab fa-html5 green"></i>
                         </div>
@@ -198,7 +201,15 @@
             </div>
         </div>
         <hr>
-        <span class="badge badge-danger">Hot</span>
+        <div class="d-flex justify-content-between">
+            <div>
+                <span class="badge badge-danger">Hot</span>
+            </div>
+            <div class="d-flex align-items-center text-muted">
+                <span class="">MORE</span>
+                <i class="fas fa-chevron-right d-none d-md-block"></i>
+            </div>
+        </div>
         <div class="comtainer">
             <div class="row">
 

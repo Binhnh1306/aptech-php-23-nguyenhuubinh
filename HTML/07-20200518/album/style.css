@@ -44,3 +44,19 @@ width: 35%;;
 .space{
     padding: 9rem;
 }
+li{
+    list-style: none;
+}
+/* @media only screen and(max-width: 768px){
+.anHien{
+    display: none;
+}
+}
+@media only screen and(min-width: 768px){
+    .anHien{
+        display: none;
+    }
+    } */
+    .anHien{
+        display: none;
+    }
